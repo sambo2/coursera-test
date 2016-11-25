@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="moduleOneapp">
+
+<head>
+     <meta charset="utf-8">
+      <script src="script/angular.min.js"></script>
+      <script src="script/First_app.js"></script>
+
+ <title>Angular JS Filters</title>
+</head>
+
+<body>
+
+<p>Application for manipulating deliminated string</p>
+
+<div ng-controller="ViewController">
+
+ Enter you Lunch List (seperate items with comma):<input type="text" ng-model="source_string">
+ <br >
+ <button ng-click="manuipulate_string()">Check If Too Much</button>
+ <br >
+ <h1><strong>{{msg_display}}</strong></h1>
+
+</div>
+</body>
+</html>
